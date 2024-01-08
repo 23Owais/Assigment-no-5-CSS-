@@ -1,0 +1,139 @@
+*{
+  background-color: #e1e2e3;
+}
+#main{
+    height: 700px;
+    width: 80%;
+    background-color: #e1e2e3;
+    margin: auto;
+    display: flex;
+    /* padding-top: -15%; */
+    
+}
+#header{
+    height: 100%;
+    width: 60%;
+    background-color:#e1e2e3;
+    /* display: inline-block; */
+    
+}
+h1{
+    display: inline-block;
+margin-top:30%;
+/* background-color: white; */
+color: rgb(10, 128, 237);
+font-size: 100px;
+font-family: sans-serif;
+}
+
+p{
+    /* background-color: aqua; */
+    margin-top: -7%;
+    font-size: xx-large;
+    word-spacing: 10px;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    /* text-indent: 10px; */
+    padding-left: 10px;
+    line-height: 35px;
+}
+#form{
+    height: 100%;
+    max-width: 40%;
+    background-color: #e1e2e3;
+    /* display: inline-block; */
+    
+}
+#container {
+    /* position: absolute; */
+    right: 0;
+    /* margin: 20px 2px 0 px; */
+    margin-top: 30%;
+    margin-left: 10%;
+    max-width: 70%;
+    padding: 16px;
+    background-color: white;
+    height: 60%;
+  }
+  /* #midle{
+    height: 100%;
+    max-width: 100%;
+    background-color: #04AA6D;
+  } */
+  
+  /* Full-width input fields */
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 5px 22px 2px;
+    border: 2px solid black;
+    /* border-radius: 5%; */
+    background-color: white;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color:  rgb(10, 128, 237);
+    color: white;
+    padding: 16px 20px;
+    margin-left: 2px;
+    border: 2px solid rgb(10, 128, 237);
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: large;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  #btn:hover{
+    opacity: 1;
+  }
+  #btn{
+    background-color:  rgb(2, 151, 2);
+    color: white;
+    padding: 10px 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+    border: 2px solid  rgb(2, 151, 2);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+    width: 60%;
+    opacity: 0.9;
+  }
+
+span{
+  color: blue;
+}
+#form p{
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 3px;
+  word-spacing: 1px;
+  
+}
+a{
+  text-decoration: none;
+  margin-bottom: -10%;
+  background-color: white;
+  color:rgb(10, 128, 237) ;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  font-weight: bold;
+  display: inline-block;
+  margin-top:10px;
+  margin-left: 100px;
+  
+}
+hr{
+  margin-top: 50px;
+}
